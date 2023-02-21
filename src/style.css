@@ -1,1 +1,53 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: green;
+}
+
+.card {
+  display: flex;
+  background-color: white;
+  height: 300px;
+  width: 180px;
+  margin: auto;
+  margin-top: 2%;
+}
+
+.number {
+  font-weight: 900;
+  font-size: 80px;
+  margin: auto;
+}
+.symbol2 {
+  color: black;
+  font-size: 40px;
+  margin-left: auto;
+  margin-right: 10px;
+  transform: rotate(180deg);
+}
+.symbol {
+  color: black;
+  font-size: 40px;
+  margin-left: 10px;
+  margin-right: auto;
+}
+#altoTag {
+  color: white;
+  font-size: 20px;
+}
+#anchoTag {
+  color: white;
+  font-size: 20px;
+}
+#alto {
+  border-radius: 10px;
+  background-color: aquamarine;
+}
+#ancho {
+  border-radius: 10px;
+  background-color: aquamarine;
+}
+#generador {
+  color: red;
+  border-radius: 10px;
+  background-color: aquamarine;
+}
